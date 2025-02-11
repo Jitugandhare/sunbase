@@ -32,6 +32,9 @@ This is a web-based form designer that allows users to easily create and customi
 6. **Saving the Form**: Click the "Save" button to log the form structure as a JSON object in the console.
 7. **Toggling Dark Mode**: Use the "Toggle Dark Mode" button to switch between light and dark themes for better accessibility in different environments.
 
+## Screenshots
+
+
 ## Technologies Used
 
 - **HTML5** for creating the structure of the page.
