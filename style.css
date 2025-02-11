@@ -151,3 +151,20 @@ textarea {
     background: #b32222;
     color: white;
 }
+
+
+
+
+
+
+
+
+input[type="checkbox"] {
+    cursor: pointer;  
+    margin-left: 30px;  
+    vertical-align: middle;  
+    width: 15px;  
+    height: 15px;  
+}
+
+
