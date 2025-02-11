@@ -44,7 +44,7 @@ function addElement(type) {
         elementHTML += `<input type="checkbox" />`;
     }
 
-    elementHTML += `<button class="delete-btn" onclick="removeElement('${id}')"><i class="material-icons" style="font-size:20px;color:red">delete</i></button></div>`;
+    elementHTML += `<button class="delete-btn" onclick="removeElement('${id}')"><i class="material-icons" style="font-size:20px;color:black">delete</i></button></div>`;
     document.getElementById("form").innerHTML += elementHTML;
 }
 
