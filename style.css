@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: black;
+}
+
+.dark-mode #nav {
+    background: #444;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+#left-side {
+    width: 25%;
+    background: rgb(246, 243, 243);
+    padding: 15px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode #left-side {
+    background: rgb(41, 38, 38);
+}
+
+.component {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.dark-mode .component {
+    background: #666;
+    color: white;
+    border: 1px solid #444;
+}
+
+#btn {
+    background-color: rgb(252, 248, 245);
+    color: black;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.dark-mode #btn {
+    background-color: #140101;
+    color: white;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(233, 229, 229);
+}
+
+.dark-mode .main {
+    background-color: black;
+}
+
+.form-container {
+    background: white;
+    margin: auto;
+    padding: 20px;
+    min-height: 50px;
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .form-container {
+    background: #555;
+}
+
+.form-element {
+    position: relative;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: grab;
+}
+
+.dark-mode .form-element {
+    background: #666;
+    border-color: #444;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: red;
+    background: none;
+    border: none;
+}
+
+.dark-mode .delete-btn {
+    color: rgb(116, 8, 8);
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+    background-color: black;
+    color: white;
+    border: 1px solid #444;
+}
+
+.button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.dark-mode .button {
+    background: #b32222;
+    color: white;
+}
