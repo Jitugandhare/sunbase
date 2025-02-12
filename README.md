@@ -47,7 +47,7 @@ This project is licensed under the MIT License.
 
 - **Material Icons**: Used for the delete button icon in the form elements.
 
-## Production link: 
+## Deployment link: 
 https://dynamic-snickerdoodle-1abf74.netlify.app/
 
 ## Future Enhancements
